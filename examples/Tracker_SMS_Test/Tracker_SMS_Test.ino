@@ -96,7 +96,7 @@ void loop() {
       // Eğer SMS içeriğinde "NEREDESIN" metni bulunuyorsa, 
       // uydudan aldığımız en son konumu Google Maps linki olarak, girilen telefon numarasına SMS gönderiyoruz
       {
-        node.sendSMS("05335962144", &SMS_text[0]);
+        node.sendSMS("123456789", &SMS_text[0]);    // '123456789' yerine telefon numaramızı giriyoruz
         received_SMS = "";
       }
     }
